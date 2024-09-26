@@ -48,7 +48,8 @@ button {
   height: 40px;
   cursor: pointer;
   display: -webkit-inline-box;
-  margin-left: 10%;
+  margin: 10px;
+  margin-top: 15px;
   background: #fff;
   color: #111;
   border: 0px;
