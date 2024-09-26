@@ -19,6 +19,14 @@ $('#title').text(title)
 $('#pol_number').text(totalParties)
 $('#quest_number').text(questions.length)
 
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i >= 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+shuffleArray(questions)
+
 // start the quizz
 let counter = 0
 $('#intro').show()
@@ -85,6 +93,7 @@ const populateQuestion = (c = 0) => {
   $('#quest fieldset legend').html(question)
 
   //propositions
+  shuffleArray(answers)
   for (let i = 0; i < answers.length; i++) {
     let value = answers[i]['partis'].toString()
     let id = uid()
