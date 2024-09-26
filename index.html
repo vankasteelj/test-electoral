@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+  <link rel="stylesheet" href="main.css">
+
+  <title>Test électoral</title>
+  <meta name="description" content="Test électoral à inclure dans un site web en embed" />
+</head>
+
+<body>
+  <div id="quizz">
+    <div class="title">
+      <h1 id="title"></h1>
+      <h2 id="instructions"></h2>
+    </div>
+
+    <div id="intro">
+      <div class="content">
+        <p>Répondez simplement à <span id="quest_number"></span> questions et voyez pour qui voter parmi les <span id="pol_number"></span> listes électorales ou partis politiques repris dans ce quizz&nbsp;!</p>
+        <p>Prenez votre temps, réfléchissez, et sélectionnez les options qui vous semblent les meilleures.</p>
+        <p>Le résultat final vous indiquera quel parti ou quelle liste est le plus en accord avec vos choix&nbsp;!</p>
+      </div>
+
+      <div class="buttons">
+        <button id="start">Commencer</button>
+      </div>
+    </div>
+
+    <div id="quest">
+      <div class="content">
+        <fieldset>
+          <legend></legend>
+        </fieldset>
+      </div>
+
+      <div class="buttons">
+        <button id="pass">Passer la question</button>
+        <button id="next">Valider la réponse</button>
+      </div>
+    </div>
+
+    <div id="results">
+      <div class="content">
+        <canvas id="final_results"></canvas> 
+      </div>
+
+      <div class="buttons">
+        <button id="reset">Recommencer</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="testelectoral.js"></script>
+</body>
+
+</html>
