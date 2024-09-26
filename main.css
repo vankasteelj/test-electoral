@@ -2,6 +2,9 @@
   transition: all .5s;
   margin: 0;
   padding: 0;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 body {
   padding: 0;

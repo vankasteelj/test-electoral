@@ -109,7 +109,6 @@ const populateQuestion = (c = 0) => {
 }
 
 // when there are no more questions
-
 const showResults = () => {
   console.log('Results', finalResults)
   $('#quest').hide()
