@@ -35,7 +35,7 @@ const q = {
           "partis": ["engages"]
         },
         {
-          "proposition": "Il faut donner que l'administration et les politiques écoutent ce que leur disent les commerçants",
+          "proposition": "Il faut que l'administration et les politiques écoutent ce que leur disent les commerçants",
           "partis": ["ps"]
         },
         {
@@ -44,7 +44,7 @@ const q = {
         },
         {
           "proposition": "Il faut simplifier voire rendre gratuit le parking",
-          "partis": ["mric","ps"]
+          "partis": ["mric","ps","ptb"]
         },
         {
           "proposition": "Il faut favoriser la création d'associations des commerçants",
@@ -110,7 +110,7 @@ const q = {
       "question": "Pour la question de la propreté",
       "réponses": [
         {
-          "proposition": "Il faut donner à Tibi encore plus de responsabilités: leur travail de nettoyage est convainquant",
+          "proposition": "Il faut donner à Tibi encore plus de responsabilités: leur travail de nettoyage est convaincant",
           "partis": ["ps","ecolo","engages","lbc","mcw"]
         }, {
           "proposition": "Il faut renforcer les services communaux pour aller là où Tibi ne va pas",
@@ -136,6 +136,9 @@ const q = {
         }, {
           "proposition": "Il faut transformer les chancres et les zones à l'abandon en lieux verts et propres",
           "partis": ["mric"]
+        }, {
+          "proposition": "Il faut proposer une application de type Fix My Street aux citoyens pour faire remonter les problèmes",
+          "partis": ["mric","ps"]
         }, {
           "proposition": "Il faut un service d'enlèvement des encombrants à domicile",
           "partis": ["lbc"]
@@ -223,17 +226,39 @@ const q = {
   ]
 }
 
-/*
-{
-  "question": "question 1",
-  "réponses": [
+/* BOILERPLATE
+  "Partis politiques": {
+    "ps": "PS",
+    "mric": "MR-IC",
+    "engages": "Les Engagés",
+    "ptb": "PTB",
+    "ecolo": "Écolo",
+    "mcw": "MCW",
+    "lbc": "Le Bien Commun"
+  },
+  "Couleurs": {
+    "ps": "#e30040",
+    "mric": "#000F9F",
+    "engages": "#19d3c5",
+    "ptb": "#ef4135",
+    "ecolo": "#84bd00",
+    "mcw": "#000000",
+    "lbc": "#FFFFFF"
+  },
+  "Titre": "Communales à Charleroi",
+  "Questions": [
     {
-      "proposition": "proposition 1 (à compléter)",
-      "partis": ["ps"]
-    }, {
-      "proposition": "proposition 2 (à compléter)",
-      "partis": ["mric","engages"]
+      "question": "question 1",
+      "réponses": [
+        {
+          "proposition": "proposition 1 (à compléter)",
+          "partis": ["parti1"]
+        }, {
+          "proposition": "proposition 2 (à compléter)",
+          "partis": ["parti2","parti3"]
+        }
+      ]
     }
   ]
-},
+}
 */
