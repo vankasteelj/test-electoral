@@ -22,14 +22,14 @@ body {
   height: 10vh;
 }
 #intro, #quest, #results {
-  height: 90vh;
+  height: 85vh;
   width: 100vw;
   position: absolute;
   display: none;
 }
 .content {
-  height: 80vh;
-  width: 100vw;
+  height: 75vh;
+  width: 95vw;
   margin: 0 auto;
   overflow-y: scroll;
   max-width: 700px;

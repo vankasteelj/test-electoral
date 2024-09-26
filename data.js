@@ -5,7 +5,7 @@ const q = {
     "engages": "Les Engagés",
     "ptb": "PTB",
     "ecolo": "Écolo",
-    "mcw": "Mouvement Citoyen Wallon (MCW)",
+    "mcw": "MCW",
     "lbc": "Le Bien Commun"
   },
   "Couleurs": {
